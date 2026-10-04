@@ -1,0 +1,14 @@
+{
+  "m_rain_lags": 3,
+  "n_flow_lags": 2,
+  "hidden": [
+    16,
+    8
+  ],
+  "activation": "logistic",
+  "learning_rate": 0.005,
+  "peak_threshold_cfs": 1500.0,
+  "best_epoch": 200,
+  "train_q_max_cfs": 29700.0,
+  "train_r_max_mm": 168.91
+}
