@@ -1,7 +1,9 @@
 # Application of Artificial Neural Network in Streamflow Forecasting
 
 ML Mini-Project (UE24CS352A) - Problem 11 - team of two.
-**Team:** _<R Muralidharan, PES2UG24CS387>_, _<Nikhil K R, PES2UG24CS815>_
+**Team:**
+_<R Muralidharan, PES2UG24CS387>_
+_<Nikhil K R, PES2UG24CS815>_
 
 Predicts daily streamflow Q(t) at **USGS 02472000, Leaf River near Collins, MS** from past rainfall and past
 streamflow with a feed-forward ANN, compared against a persistence baseline and linear regression.
