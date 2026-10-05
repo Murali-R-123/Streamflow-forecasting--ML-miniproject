@@ -52,6 +52,11 @@ The paper's text says "Collins, LA", but USGS 02472000 is in Covington County, *
 
 The reference used 2003-2007 train / 2008-2012 "validation" and picked the best model on those same years; we
 keep 2008-2012 as an untouched test set instead.
+##Peak-Flow Results
+Model	Peak RMSE	Non-Peak RMSE
+Persistence	2366.2	213.8
+Linear Regression	1451.5	339.5
+ANN	1528.2	253.8
 
 ## Manual download (if `download_data.py` fails)
 * USGS: site page -> Daily data -> select discharge, 2003-01-01..2012-12-31, tab-separated -> save as
